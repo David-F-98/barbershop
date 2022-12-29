@@ -1,4 +1,9 @@
-body{
+
+#banner {
+    width: 100%;
+}
+
+.principal{
     background-color: #cccc;
 }
 
@@ -16,4 +21,16 @@ p{
 
 em strong{
     color: red;
+}
+
+.diferenciales{
+    background: #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
 }
