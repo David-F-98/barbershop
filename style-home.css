@@ -1,0 +1,113 @@
+header{
+    background: url(imagenes/textura-madera.jpg);
+    padding: 10px 0;
+}
+
+.caja{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffdb58c8;
+    text-decoration: underline;
+}
+
+.tituloPrincipal{
+    padding: 30px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 50px;
+    font-family:fantasy;
+    text-shadow: 2px 4px 0px rgba(209, 206, 206, 0.821);
+}
+
+.ubi {
+    padding: 10px 0 10px;
+}
+
+#banner {
+    position: relative;
+    padding: 20px 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.principal{
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:fantasy;
+    padding: 20px ;
+}
+
+#mision{
+    font-size: 20px;
+    padding: 10px 0 10px;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+.diferenciales{
+    background: #fff;
+    padding: 30px;
+    
+}
+
+.lista{
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
+}
+
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.pie-pagina{
+    padding: 25px;
+    color: white;
+    font-size: 13px;
+}
