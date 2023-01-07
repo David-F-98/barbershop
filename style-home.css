@@ -47,9 +47,10 @@ nav a:hover{
 
 #banner {
     position: relative;
-    padding: 20px 10%;
-    width: 80%;
-    margin: 0 auto;
+    padding: 5px 0;
+    width: 100%;
+    margin: 0;
+    opacity: .75;
 }
 
 .principal{
