@@ -78,21 +78,13 @@ nav a:hover{
     margin-top: 10px;
 }
 
-.tituloPrincipal{
-    padding: 30px;
-    color: rgba(255, 255, 255, 0);
-    font-size: 50px;
-    font-family:fantasy;
-    text-shadow: 2px 4px 0px rgba(209, 206, 206, 0.821);
-}
-
 .ubi {
     padding: 10px 0 10px;
 }
 
 .video{
     text-align: center;
-    margin: 20px;
+    padding: 20px 0 20px;
 }
 
 /*Página home*/
@@ -105,6 +97,8 @@ nav a:hover{
 
 .principal{
     padding: 20px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .titulo-principal{
@@ -119,6 +113,14 @@ nav a:hover{
 #mision{
     font-size: 20px;
     padding: 10px 0 10px;
+}
+
+.principal strong::before{
+    content: "'";
+}
+
+.principal strong::after{
+    content: "'";
 }
 
 .principal p{
@@ -139,25 +141,35 @@ nav a:hover{
     margin: 10px 30px;
 }
 
+.mapa{
+    background: linear-gradient(rgb(255, 255, 255), rgb(153, 153, 153));
+}
+
 .mapa p{
     text-align: center;
 }
 
-iframe{
-    margin: 20px;
+.mapa-contenido{
+    margin: 20px auto 0;
+    width: 940px;
+    padding: 40px;
 }
 
 .diferenciales{
-    background: #fff;
-    padding: 30px;
-    
+    background: linear-gradient(rgb(153, 153, 153), rgb(89, 89, 89));
+    padding: 30px;  
 }
 
-.imagenDiferenciales{
+.contenido-diferenciales{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagen-diferenciales{
     width: 50%;
 }
 
-.lista{
+.lista-diferenciales{
     display: inline-block;
     vertical-align:top;
     width: 20%;
@@ -166,13 +178,24 @@ iframe{
 
 .items{
     font-style: italic;
+    line-height: 1.5;
+}
+
+.items::before{
+    content: "✧";
+}
+
+.items:first-child{
+   font-weight: bold; 
 }
 
 
 
 /*Página contacto*/
-main{
-    width: 1200px;
+
+.contenido-contacto{
+    padding: 20px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -220,7 +243,8 @@ form label, form legend{
 }
 
 table{
-    margin: 40px 40px;
+    margin: 0 150px 60px;
+    transform: scale(1.5);
 }
 
 thead{
