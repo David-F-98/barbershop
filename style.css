@@ -1,3 +1,4 @@
+/* Base pagina*/
 header{
     background: url(imagenes/textura-madera.jpg);
     padding: 10px 0;
@@ -33,7 +34,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-
+/*Página productos*/
 .productos{
     width: 940px;
     margin: 0 auto;
@@ -77,20 +78,101 @@ nav a:hover{
     margin-top: 10px;
 }
 
-footer{
+.tituloPrincipal{
+    padding: 30px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 50px;
+    font-family:fantasy;
+    text-shadow: 2px 4px 0px rgba(209, 206, 206, 0.821);
+}
+
+.ubi {
+    padding: 10px 0 10px;
+}
+
+.video{
     text-align: center;
-    background: url(imagenes/bg.jpg);
-    padding: 40px;
+    margin: 20px;
 }
 
-.pie-pagina{
-    margin: 10px;
-    color: white;
-    font-size: 13px;
+/*Página home*/
+#banner {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    opacity: .75;
 }
 
+.principal{
+    padding: 20px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    font-family:fantasy;
+    padding: 20px ;
+    clear: left;
+    font-family: 'Lobster', cursive;
+}
+
+#mision{
+    font-size: 20px;
+    padding: 10px 0 10px;
+}
+
+.principal p{
+    text-align: center;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios {
+    width: 25%;
+    float: left;
+    margin: 10px 30px;
+}
+
+.mapa p{
+    text-align: center;
+}
+
+iframe{
+    margin: 20px;
+}
+
+.diferenciales{
+    background: #fff;
+    padding: 30px;
+    
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+.lista{
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
+}
+
+
+
+/*Página contacto*/
 main{
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -151,3 +233,17 @@ td, thead{
     border: 1px solid black;
     padding: 8px;
 }
+
+/*Fin de página*/
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 10px;
+}
+
+.pie-pagina{
+    padding: 0 0 15px;
+    color: white;
+    font-size: 13px;
+}
+
