@@ -57,6 +57,8 @@ nav a:hover{
 .productos li:hover{
     border-color: #e3a54d;
     transform: scale(1.05);
+    transition: 400ms;
+    box-shadow: 10px 10px 10px rgb(98, 98, 98);
 }
 
 .productos li:active{
@@ -276,6 +278,9 @@ footer{
     color: white;
     font-size: 13px;
 }
+
+
+ /*Acomodación distintos formatos de visualización*/
 
 @media screen and (max-width:480px) {
     h1{
