@@ -169,6 +169,12 @@ nav a:hover{
     width: 50%;
 }
 
+.imagen-diferenciales:hover{
+    opacity: 70%;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px black;
+}
+
 .lista-diferenciales{
     display: inline-block;
     vertical-align:top;
@@ -271,3 +277,20 @@ footer{
     font-size: 13px;
 }
 
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .imagen-diferenciales{
+        width: 100%;
+    }
+
+    .caja , .principal , .mapa-contenido , .video , .contenido-diferenciales, .lista-diferenciales{
+        width: auto;
+    }
+}
